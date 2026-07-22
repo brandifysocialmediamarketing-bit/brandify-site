@@ -528,7 +528,7 @@ document.addEventListener('DOMContentLoaded', () => {
       desc: 'A sleek product reveal short optimised for YouTube Shorts. Bold cuts and dynamic text bring tech launches to life instantly.',
       tags: ['#TechReview', '#ProductLaunch', '#Shorts'],
       viral: '🔥 Trending',
-      videoUrl: 'https://res.cloudinary.com/ds1hxigmo/video/upload/q_auto,f_auto,w_500/v1784217274/GOA_2_ful59p.mp4' 
+      videoUrl: 'videos/GOA 2.mp4'
     },
     3: {
       platform: '<i class="fab fa-tiktok"></i> TikTok',
@@ -540,7 +540,7 @@ document.addEventListener('DOMContentLoaded', () => {
       desc: 'A mouth-watering food reel that drove 3x table bookings in the first week. Shot with professional food styling and vibrant colour grading.',
       tags: ['#FoodReel', '#Restaurant', '#Foodie'],
       viral: '⭐ Top Performer',
-      videoUrl: 'https://res.cloudinary.com/ds1hxigmo/video/upload/q_auto,f_auto,w_500/v1784217321/JISHA_1_2_zt2jqc.mp4'
+      videoUrl: 'videos/JISHA 1(2).mp4'
     },
     4: {
       platform: '<i class="fab fa-instagram"></i> Reels',
@@ -552,7 +552,7 @@ document.addEventListener('DOMContentLoaded', () => {
       desc: 'A luxury property walkthrough reel using drone shots and smooth transitions. Helped the client sell 2 units within 48 hours of posting.',
       tags: ['#RealEstate', '#PropertyTour', '#LuxuryLiving'],
       viral: '🏅 Best in Category',
-      videoUrl: 'https://res.cloudinary.com/ds1hxigmo/video/upload/q_auto,f_auto,w_500/v1784217330/lv_0_20260103220636_yvu0zp.mp4'
+      videoUrl: 'videos/lv_0_20260103220636.mp4'
     },
     5: {
       platform: '<i class="fab fa-youtube"></i> Shorts',
@@ -564,7 +564,7 @@ document.addEventListener('DOMContentLoaded', () => {
       desc: 'An inspiring transformation story that became the brand\'s most-watched piece of content. Authentic storytelling with high-energy music and tight editing.',
       tags: ['#FitnessMotivation', '#HealthyLifestyle', '#Wellness'],
       viral: '🚀 Most Shared',
-      videoUrl: 'https://res.cloudinary.com/ds1hxigmo/video/upload/q_auto,f_auto,w_500/v1784217337/4_1_ce3o6w.mp4'
+      videoUrl: 'videos/4(1).mp4'
     },
     6: {
       platform: '<i class="fab fa-instagram"></i> Reels',
@@ -576,7 +576,7 @@ document.addEventListener('DOMContentLoaded', () => {
       desc: 'A stunning jewellery campaign reel with cinematic close-ups and glam transitions. Became our highest-performing reel of the year with 4.5M organic views.',
       tags: ['#JewelleryReel', '#LuxuryFashion', '#ViralContent'],
       viral: '👑 #1 Viral',
-      videoUrl: 'https://res.cloudinary.com/ds1hxigmo/video/upload/q_auto,f_auto,w_500/v1784217758/01_qld6zh.mp4'
+      videoUrl: 'videos/01.mp4'
     }
   };
 
