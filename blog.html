@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Blog – Brandify Socialmedia</title>
+  <meta name="description" content="Insights on Meta Ads, Instagram Reels, digital marketing and website development from the Brandify Socialmedia team."/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <link rel="stylesheet" href="css/style.css"/>
+  <link rel="stylesheet" href="css/services.css"/>
+  <link rel="stylesheet" href="css/blog.css"/>
+</head>
+<body>
+
+<div class="cursor-dot" id="cursorDot"></div>
+<div class="cursor-ring" id="cursorRing"></div>
+
+<header class="navbar" id="navbar">
+  <div class="container nav-wrap">
+    <div class="navbar-pill">
+      <a href="index.html" class="logo">
+        <span class="logo-badge"><img src="images/Brandify_Logo.svg" alt="Brandify" class="logo-img"></span>
+        <span>Brandify</span>
+      </a>
+      <nav class="nav-links" id="navLinks">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="blog.html" aria-current="page">Blog</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="nav-actions">
+        <a href="tel:+918140924369" class="btn-primary nav-cta"><i class="fa fa-phone"></i> Call Us</a>
+      </div>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- ===== 1. HERO / EDITORIAL INTRO ===== -->
+<section class="blog-hero scroll-reveal">
+  <div class="hero-glow hero-glow-1"></div>
+  <div class="hero-glow hero-glow-2"></div>
+  <div class="container">
+    <div class="breadcrumb">
+      <a href="index.html">Home</a>
+      <i class="fa fa-chevron-right"></i>
+      <span>Blog</span>
+    </div>
+    <div class="blog-hero-inner">
+      <div class="blog-hero-left">
+        <div class="section-eyebrow"><i class="fa fa-circle-dot"></i> The Brandify Journal</div>
+        <h1 class="blog-hero-title">
+          Ideas that grow brands,<br>
+          <span class="italic-accent">not just blog posts.</span>
+        </h1>
+        <p class="blog-hero-desc">A dedicated home for insights on Meta Ads, Instagram Reels, digital marketing and website development — written in the same voice as everything else we build for our clients.</p>
+      </div>
+      <div class="blog-hero-right" id="featuredPost">
+        <!-- Featured post injected by blog.js -->
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 2. CATEGORY FILTER BAR ===== -->
+<section class="blog-filter-section scroll-reveal">
+  <div class="container">
+    <div class="blog-filter-bar">
+      <div class="blog-filter-pills" id="filterPills">
+        <button class="blog-pill active" data-cat="all">All Stories</button>
+        <button class="blog-pill" data-cat="Meta Ads">Meta Ads</button>
+        <button class="blog-pill" data-cat="Reels">Reels</button>
+        <button class="blog-pill" data-cat="Digital Marketing">Digital Marketing</button>
+        <button class="blog-pill" data-cat="Agency">Agency</button>
+        <button class="blog-pill" data-cat="Website Development">Web Dev</button>
+      </div>
+      <div class="blog-search">
+        <i class="fa fa-magnifying-glass"></i>
+        <input type="text" id="blogSearch" placeholder="Search the journal…" aria-label="Search articles">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 3. JOURNAL GRID ===== -->
+<section class="blog-grid-section scroll-reveal">
+  <div class="container">
+    <div class="blog-grid-header">
+      <div class="blog-grid-header-left">
+        <div class="section-eyebrow"><i class="fa fa-circle-dot"></i> Journal Grid</div>
+        <h2 class="blog-grid-title">
+          Built like an editorial archive,<br>
+          <span class="italic-accent">not a blog roll.</span>
+        </h2>
+      </div>
+      <p class="blog-grid-header-desc">Every article is crafted to help you take action — from ad strategy to reels, SEO and websites. Filter by topic above, or search for exactly what you need.</p>
+    </div>
+
+    <div class="blog-grid" id="blogGrid"></div>
+    <div class="blog-empty" id="blogEmpty" style="display:none;">
+      <i class="fa fa-magnifying-glass"></i>
+      <p>No stories match your search yet. Try another topic.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 4. NEWSLETTER ===== -->
+<section class="blog-newsletter-section scroll-reveal">
+  <div class="container">
+    <div class="blog-newsletter-card">
+      <div class="hero-glow hero-glow-1"></div>
+      <div class="blog-newsletter-inner">
+        <div class="blog-newsletter-left">
+          <div class="section-eyebrow"><i class="fa fa-circle-dot"></i> Stay in the Loop</div>
+          <h2 class="blog-newsletter-title">
+            Notes worth keeping,<br>
+            <span class="italic-accent">delivered quietly.</span>
+          </h2>
+          <p class="blog-newsletter-desc">Get fresh marketing insights, campaign breakdowns and growth tips straight to your inbox. No spam — just ideas that help your brand grow.</p>
+        </div>
+        <form class="blog-newsletter-form" id="newsletterForm">
+          <div class="blog-newsletter-field">
+            <input type="email" id="newsletterEmail" placeholder="Enter your email" aria-label="Email address" required>
+            <button type="submit" class="btn-primary">Subscribe <i class="fa fa-arrow-right"></i></button>
+          </div>
+          <p class="blog-newsletter-note" id="newsletterNote">We respect your privacy. Unsubscribe anytime.</p>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 5. FOOTER ===== -->
+<footer class="footer scroll-reveal" id="contact">
+  <div class="container footer-inner">
+    <div class="footer-col">
+      <a href="index.html" class="logo footer-logo"><span>Brandify</span></a>
+      <p class="footer-desc">Transform your brand with innovative digital marketing strategies and data-driven campaigns.</p>
+      <div class="social-links">
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Contact Info</h4>
+      <ul class="contact-list">
+        <li><i class="fa fa-phone"></i> +91 81409 24369</li>
+        <li><i class="fa fa-envelope"></i> hello@brandifysocialmedia.in</li>
+        <li><i class="fa fa-location-dot"></i> Surat, Gujarat, India</li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2026 Brandify Socialmedia. All rights reserved.</p>
+  </div>
+</footer>
+
+<!-- ===== BLOG ARTICLE MODAL ===== -->
+<div class="modal-overlay blog-modal-overlay" id="blogModal">
+  <div class="modal-box blog-modal-box">
+    <button class="modal-close" id="closeBlogModal"><i class="fa fa-times"></i></button>
+    <div class="blog-modal-banner" id="blogModalBanner">
+      <i id="blogModalIcon"></i>
+    </div>
+    <div class="blog-modal-meta">
+      <span id="blogModalTag" class="blog-tag"></span>
+      <span id="blogModalRead" class="blog-read-time"></span>
+    </div>
+    <h2 id="blogModalTitle" class="blog-modal-title"></h2>
+    <div id="blogModalBody" class="blog-modal-body"></div>
+  </div>
+</div>
+
+<script src="js/blog.js" defer></script>
+</body>
+</html>

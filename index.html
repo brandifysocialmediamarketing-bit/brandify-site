@@ -1,0 +1,1100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Brandify Socialmedia – Digital Marketing Agency</title>
+  <meta name="description" content="Brandify Socialmedia is a creative digital marketing agency in Surat — social media marketing, Meta & Google Ads, SEO, websites, video editing and more."/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com"/>
+  <link rel="preconnect" href="https://res.cloudinary.com"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <link rel="stylesheet" href="css/style.css?v=2"/>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" defer></script>
+</head>
+<body>
+
+<div class="cursor-dot" id="cursorDot"></div>
+<div class="cursor-ring" id="cursorRing"></div>
+
+<header class="navbar" id="navbar">
+  <div class="container nav-wrap">
+    <div class="navbar-pill">
+      <a href="#" class="logo">
+        <span class="logo-badge"><img src="images/Brandify_Logo.svg" alt="Brandify" class="logo-img"></span>
+        <span>Brandify</span>
+      </a>
+      <nav class="nav-links" id="navLinks">
+        <a href="#">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="nav-actions">
+        <a href="tel:+918140924369" class="btn-primary nav-cta"><i class="fa fa-phone"></i> Call Us</a>
+      </div>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<section class="hero hero-carousel-section">
+  <div class="hero-carousel-track" id="heroTrack">
+
+    <div class="hero-slide slide-active">
+      <div class="hero-glow hero-glow-1"></div>
+      <div class="hero-glow hero-glow-2"></div>
+      <div class="container hero-inner">
+        <div class="hero-left">
+          <div class="badge-tag"><span class="dot"></span> Digital Marketing Excellence</div>
+          <h1 class="hero-title">
+            Vibe Your Brand.<br>
+            <span class="grad-text">Grow Your Reach.</span>
+          </h1>
+          <p class="hero-desc">We help brands shine with creative content, targeted ads, and growth strategies that deliver real results.</p>
+          <div class="hero-btns">
+            <a href="#contact" class="btn-primary lg">Get a Free Consultation <i class="fa fa-arrow-right"></i></a>
+            <a href="#plans" class="btn-outline lg">View Plans</a>
+          </div>
+        </div>
+        <div class="hero-right">
+          <div class="stat-grid">
+            <div class="stat-card big">
+              <p class="stat-label">Ad Impressions</p>
+              <h2 class="stat-num grad-text">99%</h2>
+            </div>
+            <div class="stat-card big">
+              <p class="stat-label">Avg ROI</p>
+              <h2 class="stat-num grad-text">98%</h2>
+            </div>
+            <div class="stat-card wide">
+              <p class="stat-label">Team Collaboration</p>
+              <div class="collab-avatars">
+                <span class="av av1"><i class="fab fa-aws" style="color: white; font-size: 18px;"></i></span>
+                <span class="av av2"><i class="fab fa-google" style="color: white; font-size: 16px;"></i></span>
+                <span class="av av3"><i class="fab fa-meta" style="color: white; font-size: 18px;"></i></span>
+                <span class="av av4">+12</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-slide">
+      <div class="hero-glow hero-glow-1" style="background:rgba(249,115,22,.20);"></div>
+      <div class="hero-glow hero-glow-2" style="background:rgba(236,72,153,.10);"></div>
+      <div class="container hero-inner">
+        <div class="hero-left">
+          <div class="badge-tag" style="background:rgba(249,115,22,.12);border-color:rgba(249,115,22,.30);color:#fb923c;"><span class="dot" style="background:#fb923c;"></span> Creative Production Studio</div>
+          <h1 class="hero-title">
+            Edit Smarter.<br>
+            <span class="grad-text-orange">Go Viral Faster.</span>
+          </h1>
+          <p class="hero-desc">Professional video editing and reel production that stops the scroll — crafted for Instagram, YouTube, and beyond.</p>
+          <div class="hero-btns">
+            <a href="#contact" class="btn-primary lg" style="background:linear-gradient(135deg,#c2410c,#fb923c);box-shadow:0 4px 20px rgba(249,115,22,.35);">Start Your Project <i class="fa fa-arrow-right"></i></a>
+            <a href="#services" class="btn-outline lg">See Our Work</a>
+          </div>
+        </div>
+        <div class="hero-right">
+          <div class="video-hero-card">
+            <div class="reel-preview-wrap">
+              <div class="reel-phone-frame">
+                <div class="reel-screen">
+                  <div class="reel-overlay-ui">
+                    <div class="reel-top-bar">
+                      <span class="reel-label"><i class="fab fa-instagram"></i> Reels</span>
+                      <div class="reel-upload-btn"><i class="fa fa-plus"></i> Upload</div>
+                    </div>
+                    <div class="reel-play-area">
+                      <div class="reel-play-icon"><i class="fa fa-play"></i></div>
+                    </div>
+                    <div class="reel-bottom-bar">
+                      <div class="reel-progress-track"><div class="reel-progress-fill"></div></div>
+                      <div class="reel-actions">
+                        <span><i class="fa fa-heart"></i> 24.3K</span>
+                        <span><i class="fa fa-comment"></i> 1.2K</span>
+                        <span><i class="fa fa-share"></i> 892</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="reel-stats-float">
+                <div class="reel-stat-chip"><i class="fa fa-eye" style="color:#fb923c"></i> 2.4M Views</div>
+                <div class="reel-stat-chip"><i class="fa fa-bolt" style="color:#fbbf24"></i> 98% Retention</div>
+              </div>
+            </div>
+            <div class="video-services-row">
+              <span class="vs-tag"><i class="fab fa-instagram"></i> Reels</span>
+              <span class="vs-tag"><i class="fab fa-youtube"></i> Shorts</span>
+              <span class="vs-tag"><i class="fab fa-tiktok"></i> TikTok</span>
+              <span class="vs-tag"><i class="fa fa-film"></i> Brand Films</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-slide">
+      <div class="hero-glow hero-glow-1" style="background:rgba(149, 191, 71, .22);"></div>
+      <div class="hero-glow hero-glow-2" style="background:rgba(149, 191, 71, .12);"></div>
+      <div class="container hero-inner">
+        <div class="hero-left">
+          <div class="badge-tag" style="background:rgba(149,191,71,.12);border-color:rgba(149,191,71,.30);color:#95bf47;"><span class="dot" style="background:#95bf47;"></span> Web Development & eCommerce</div>
+          <h1 class="hero-title">
+            Build Stores.<br>
+            <span class="grad-text-shopify">Sell More Online.</span>
+          </h1>
+          <p class="hero-desc">From lightning-fast Shopify storefronts to custom websites — we build digital experiences that convert visitors into loyal customers.</p>
+          <div class="hero-btns">
+            <a href="#contact" class="btn-primary lg" style="background:linear-gradient(135deg,#7ab529,#95bf47);box-shadow:0 4px 20px rgba(149,191,71,.35);">Launch My Store <i class="fa fa-arrow-right"></i></a>
+            <a href="#services" class="btn-outline lg">View Portfolio</a>
+          </div>
+        </div>
+        <div class="hero-right">
+          <div class="web-hero-card shopify-theme">
+            <div class="platform-showcase">
+              <div class="platform-card shopify-card">
+                <div class="platform-logo"><i class="fab fa-shopify"></i></div>
+                <div class="platform-info">
+                  <span class="platform-name">Shopify</span>
+                  <span class="platform-tag" style="color: #95bf47;">⭐ Recommended</span>
+                </div>
+              </div>
+              <div class="platform-mini-grid">
+                <div class="platform-mini"><i class="fab fa-wordpress"></i><span>WordPress</span></div>
+                <div class="platform-mini"><i class="fa fa-globe"></i><span>Wix</span></div>
+                <div class="platform-mini"><i class="fa fa-code"></i><span>Custom</span></div>
+              </div>
+            </div>
+            <div class="browser-mockup">
+              <div class="browser-bar">
+                <div class="browser-dots"><span></span><span></span><span></span></div>
+                <div class="browser-url">yourstore.com</div>
+              </div>
+              <div class="browser-content">
+                <div class="mock-product-row">
+                  <div class="mock-product" style="background: linear-gradient(135deg, rgba(149,191,71,.2), rgba(14,124,124,.15)); border-color: rgba(149,191,71,.15);"></div>
+                  <div class="mock-product" style="background: linear-gradient(135deg, rgba(149,191,71,.2), rgba(14,124,124,.15)); border-color: rgba(149,191,71,.15);"></div>
+                  <div class="mock-product" style="background: linear-gradient(135deg, rgba(149,191,71,.2), rgba(14,124,124,.15)); border-color: rgba(149,191,71,.15);"></div>
+                </div>
+                <div class="mock-add-cart" style="background: linear-gradient(135deg,#7ab529,#95bf47);"><i class="fa fa-shopping-cart"></i> Add to Cart</div>
+              </div>
+            </div>
+            <div class="web-stat-row">
+              <div class="web-stat"><span class="ws-num" style="color: #95bf47;">3x</span><span class="ws-label">Conversion Boost</span></div>
+              <div class="web-stat"><span class="ws-num" style="color: #95bf47;">&lt;2s</span><span class="ws-label">Load Speed</span></div>
+              <div class="web-stat"><span class="ws-num" style="color: #95bf47;">100%</span><span class="ws-label">Mobile Ready</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="hero-carousel-controls">
+    <button class="hero-nav-btn" id="heroPrev"><i class="fa fa-chevron-left"></i></button>
+    <div class="hero-dots" id="heroDots">
+      <span class="hero-dot active"></span>
+      <span class="hero-dot"></span>
+      <span class="hero-dot"></span>
+    </div>
+    <button class="hero-nav-btn" id="heroNext"><i class="fa fa-chevron-right"></i></button>
+  </div>
+</section>
+
+<div class="trust-bar">
+  <div class="trust-bar-inner">
+    <div class="trust-item">
+      <span class="trust-num" data-target="35" data-suffix="+">35+</span>
+      <span class="trust-label">Projects Completed</span>
+    </div>
+    <div class="trust-divider"></div>
+    <div class="trust-item">
+      <span class="trust-num">₹15L+</span>
+      <span class="trust-label">Ad Spend Managed</span>
+    </div>
+    <div class="trust-divider"></div>
+    <div class="trust-item">
+      <span class="trust-num" data-target="90" data-suffix="%">90%</span>
+      <span class="trust-label">Client Retention</span>
+    </div>
+    <div class="trust-divider"></div>
+    <div class="trust-item">
+      <span class="trust-num" data-target="3.5" data-suffix="x ROAS" data-decimal="1">3.5x</span>
+      <span class="trust-label">Average ROAS</span>
+    </div>
+  </div>
+</div>
+
+<section class="services section-pad" id="services">
+  <div class="container">
+    <div class="section-eyebrow center"><i class="fa fa-circle-dot"></i> Our Services</div>
+    <h2 class="section-title center">What We Offer</h2>
+    <p class="section-sub center">Comprehensive digital marketing solutions tailored to your needs</p>
+    <div class="services-grid">
+      <div class="service-card">
+        <div class="svc-icon purple"><i class="fa fa-chess-knight"></i></div>
+        <h3>Digital Strategy</h3>
+        <p>Data-driven strategies that align with your goals and drive measurable results.</p>
+      </div>
+      <div class="service-card">
+        <div class="svc-icon pink"><i class="fa fa-rectangle-ad"></i></div>
+        <h3>Meta-ads</h3>
+        <p>Data-driven Meta ad campaigns that boost engagement, generate leads, and deliver consistent business growth.</p>
+      </div>
+      <div class="service-card">
+        <div class="svc-icon cyan"><i class="fa fa-film"></i></div>
+        <h3>Video Editing</h3>
+        <p>Professional video editing services that deliver polished, engaging, and platform-ready content for your brand.</p>
+      </div>
+      <div class="service-card">
+        <div class="svc-icon orange"><i class="fa fa-chart-bar"></i></div>
+        <h3>Analytics & Insights</h3>
+        <p>Deep analytics and actionable insights to optimize your campaigns.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="plans section-pad" id="plans">
+  <div class="container">
+    <h2 class="section-title center">Our Marketing Plan</h2>
+    <p class="section-sub center">Flexible packages designed to meet your business needs and budget</p>
+    <div class="plans-grid">
+      <div class="plan-card" data-plan="Basic Plan ₹7,999">
+        <div class="plan-card-arrow"><i class="fa fa-arrow-right"></i></div>
+        <div class="plan-badge teal">Basic Plan</div>
+        <div class="plan-price">
+          <span class="currency">₹</span>7,999
+        </div>
+        <ul class="plan-features">
+          <li><i class="fa fa-check"></i> 2 Model Reels</li>
+          <li><i class="fa fa-check"></i> 2 Business Presentation Reels</li>
+          <li><i class="fa fa-check"></i> 8 Business Posts (Instagram & Facebook)</li>
+          <li><i class="fa fa-check"></i> Social Media Marketing (All Platforms)</li>
+          <li><i class="fa fa-check"></i> Meta Ads (Set-up & Run)</li>
+          <li><i class="fa fa-check"></i> 1 Website Banner</li>
+          <li><i class="fa fa-check"></i> 2 Story Posts</li>
+        </ul>
+        <a href="#" class="btn-outline plan-btn wa-plan-btn" data-plan="Basic Plan ₹7,999">Get Started</a>
+      </div>
+      <div class="plan-card featured" data-plan="Standard Plan ₹16,999">
+        <div class="plan-card-arrow"><i class="fa fa-arrow-right"></i></div>
+        <div class="plan-badge gold">Standard Plan <span class="hot">✨ Popular</span></div>
+        <div class="plan-price">
+          <span class="currency">₹</span>16,999
+        </div>
+        <ul class="plan-features">
+          <li><i class="fa fa-check"></i> 4 Model Reels</li>
+          <li><i class="fa fa-check"></i> 5 Business Presentation Reels</li>
+          <li><i class="fa fa-check"></i> 20 Business Posts (Instagram & Facebook)</li>
+          <li><i class="fa fa-check"></i> Social Media Marketing (All Platforms)</li>
+          <li><i class="fa fa-check"></i> Meta Ads (Set-up)</li>
+          <li><i class="fa fa-check"></i> 3 Website Banners</li>
+          <li><i class="fa fa-check"></i> 5 Story Posts</li>
+          <li><i class="fa fa-check"></i> 100 Marketing Pamphlets</li>
+        </ul>
+        <a href="#" class="btn-primary plan-btn wa-plan-btn" data-plan="Standard Plan ₹16,999">Get Started</a>
+      </div>
+      <div class="plan-card" data-plan="Premium Plan ₹27,999">
+        <div class="plan-card-arrow"><i class="fa fa-arrow-right"></i></div>
+        <div class="plan-badge purple-badge">Premium Plan</div>
+        <div class="plan-price">
+          <span class="currency">₹</span>27,999
+        </div>
+        <ul class="plan-features">
+          <li><i class="fa fa-check"></i> 8 Model Reels</li>
+          <li><i class="fa fa-check"></i> 6 Business Presentation Reels</li>
+          <li><i class="fa fa-check"></i> 25 Business Posts (Instagram & Facebook)</li>
+          <li><i class="fa fa-check"></i> Social Media Marketing (All Platforms)</li>
+          <li><i class="fa fa-check"></i> Website Development & Maintenance</li>
+          <li><i class="fa fa-check"></i> Meta Ads (Set-up)</li>
+          <li><i class="fa fa-check"></i> 6 Website Banners</li>
+          <li><i class="fa fa-check"></i> 10 Story Posts</li>
+          <li><i class="fa fa-check"></i> 300 Marketing Pamphlets</li>
+        </ul>
+        <a href="#" class="btn-outline plan-btn wa-plan-btn" data-plan="Premium Plan ₹27,999">Get Started</a>
+      </div>
+    </div>
+    <div class="plans-actions">
+      <button class="btn-primary plans-action-btn" id="comparePlansBtn">
+        <i class="fa fa-columns"></i> Compare 3 Plans
+      </button>
+    </div>
+  </div>
+</section>
+
+<div class="compare-modal-overlay" id="compareModal" aria-hidden="true">
+  <div class="compare-modal">
+    <button class="compare-close" id="compareClose" aria-label="Close"><i class="fa fa-xmark"></i></button>
+    <div class="compare-header">
+      <h2 class="compare-title">Compare Plans</h2>
+      <p class="compare-sub">See exactly what's included in each plan</p>
+    </div>
+    <div class="compare-table-wrap">
+      <table class="compare-table">
+        <thead>
+          <tr>
+            <th class="feature-col">Features</th>
+            <th class="plan-col silver-col">
+              <div class="th-badge teal-badge">Basic</div>
+              <div class="th-price">₹7,999</div>
+            </th>
+            <th class="plan-col gold-col popular-col">
+              <div class="popular-ribbon">🔥 Popular</div>
+              <div class="th-badge gold-badge">Standard</div>
+              <div class="th-price">₹16,999</div>
+            </th>
+            <th class="plan-col diamond-col">
+              <div class="th-badge diamond-badge">Premium</div>
+              <div class="th-price">₹27,999</div>
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="category-row"><td colspan="4">Reels &amp; Video</td></tr>
+          <tr>
+            <td>Model Reels</td>
+            <td><span class="val-text">2</span></td>
+            <td class="gold-col"><span class="val-text">4</span></td>
+            <td><span class="val-text">8</span></td>
+          </tr>
+          <tr>
+            <td>Business Presentation Reels</td>
+            <td><span class="val-text">2</span></td>
+            <td class="gold-col"><span class="val-text">5</span></td>
+            <td><span class="val-text">6</span></td>
+          </tr>
+
+          <tr class="category-row"><td colspan="4">Content &amp; Posts</td></tr>
+          <tr>
+            <td>Business Posts (Instagram &amp; Facebook)</td>
+            <td><span class="val-text">8</span></td>
+            <td class="gold-col"><span class="val-text">20</span></td>
+            <td><span class="val-text">25</span></td>
+          </tr>
+          <tr>
+            <td>Story Posts</td>
+            <td><span class="val-text">2</span></td>
+            <td class="gold-col"><span class="val-text">5</span></td>
+            <td><span class="val-text">10</span></td>
+          </tr>
+
+          <tr class="category-row"><td colspan="4">Marketing &amp; Ads</td></tr>
+          <tr>
+            <td>Social Media Marketing (All Platforms)</td>
+            <td><i class="fa fa-check tick"></i></td>
+            <td class="gold-col"><i class="fa fa-check tick"></i></td>
+            <td><i class="fa fa-check tick"></i></td>
+          </tr>
+          <tr>
+            <td>Meta Ads</td>
+            <td><span class="val-text">Set-up &amp; Run</span></td>
+            <td class="gold-col"><span class="val-text">Set-up</span></td>
+            <td><span class="val-text">Set-up</span></td>
+          </tr>
+
+          <tr class="category-row"><td colspan="4">Design &amp; Print</td></tr>
+          <tr>
+            <td>Website Banners</td>
+            <td><span class="val-text">1</span></td>
+            <td class="gold-col"><span class="val-text">3</span></td>
+            <td><span class="val-text">6</span></td>
+          </tr>
+          <tr>
+            <td>Marketing Pamphlets</td>
+            <td><i class="fa fa-xmark cross"></i></td>
+            <td class="gold-col"><span class="val-text">100</span></td>
+            <td><span class="val-text">300</span></td>
+          </tr>
+
+          <tr class="category-row"><td colspan="4">Development</td></tr>
+          <tr>
+            <td>Website Development &amp; Maintenance</td>
+            <td><i class="fa fa-xmark cross"></i></td>
+            <td class="gold-col"><i class="fa fa-xmark cross"></i></td>
+            <td><i class="fa fa-check tick"></i></td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td></td>
+            <td>
+              <a href="#" class="compare-cta-btn btn-outline wa-plan-btn" data-plan="Basic Plan – ₹7,999">Get Started</a>
+            </td>
+            <td class="gold-col">
+              <a href="#" class="compare-cta-btn btn-primary wa-plan-btn" data-plan="Standard Plan – ₹16,999">Get Started</a>
+            </td>
+            <td>
+              <a href="#" class="compare-cta-btn btn-outline wa-plan-btn" data-plan="Premium Plan – ₹27,999">Get Started</a>
+            </td>
+          </tr>
+        </tfoot>
+      </table>
+    </div>
+  </div>
+</div>
+
+<section class="meta-plans section-pad" id="meta-plans">
+  <div class="container">
+    <div class="section-eyebrow center"><i class="fa fa-circle-dot"></i> Website Development</div>
+    <h2 class="section-title center">Our Website Plans</h2>
+    <p class="section-sub center">Shopify store packages built to launch, convert, and scale your online store</p>
+    <div class="meta-plans-grid">
+      
+      <!-- Basic Website Plan -->
+      <div class="meta-plan-card" data-plan="Basic Website Plan ₹8,999">
+        <div class="plan-card-arrow"><i class="fa fa-arrow-right"></i></div>
+        <div class="plan-badge teal">Basic</div>
+        <div class="plan-price">
+          <span class="currency">₹</span>8,999
+        </div>
+        <ul class="plan-features">
+          <li><i class="fa fa-check"></i> Shopify Store Setup</li>
+          <li><i class="fa fa-check"></i> Free Theme Installation & Setup</li>
+          <li><i class="fa fa-check"></i> Basic Homepage Design</li>
+          <li><i class="fa fa-check"></i> Collection Setup</li>
+          <li><i class="fa fa-check"></i> Payment Gateway Integration</li>
+          <li><i class="fa fa-check"></i> Shipping Configuration</li>
+          <li><i class="fa fa-check"></i> Mobile Responsive Design</li>
+          <li><i class="fa fa-check"></i> 2 Custom Shopify Sections</li>
+          <li><i class="fa fa-check"></i> Basic Speed Optimization</li>
+        </ul>
+        <a href="#" class="btn-outline plan-btn wa-plan-btn" data-plan="Basic Website Plan ₹8,999">Get Started</a>
+      </div>
+
+      <!-- Standard Website Plan -->
+      <div class="meta-plan-card featured-meta" data-plan="Standard Website Plan ₹17,999">
+        <div class="plan-card-arrow"><i class="fa fa-arrow-right"></i></div>
+        <div class="plan-badge gold">Standard <span class="hot">✨ Best Value</span></div>
+        <div class="plan-price">
+          <span class="currency">₹</span>17,999
+        </div>
+        <ul class="plan-features">
+          <li><i class="fa fa-check"></i> Shopify Store Setup</li>
+          <li><i class="fa fa-check"></i> Premium Theme Setup*</li>
+          <li><i class="fa fa-check"></i> Navigation Menu</li>
+          <li><i class="fa fa-check"></i> Payment Gateway & shipping Integration</li>
+          <li><i class="fa fa-check"></i> Mobile Responsive Design</li>
+          <li><i class="fa fa-check"></i> Facebook Pixel / Meta Integration</li>
+          <li><i class="fa fa-check"></i> 5 Custom Shopify Sections</li>
+          <li><i class="fa fa-check"></i> Advanced Speed Optimization</li>
+          <li><i class="fa fa-check"></i> Advanced Mega Menu</li>
+          <li><i class="fa fa-check"></i> Limited Custom Coding</li>
+        </ul>
+        <a href="#" class="btn-primary plan-btn wa-plan-btn" data-plan="Standard Website Plan ₹17,999">Get Started</a>
+      </div>
+
+      <!-- Premium Website Plan -->
+      <div class="meta-plan-card" data-plan="Premium Website Plan ₹28,999">
+        <div class="plan-card-arrow"><i class="fa fa-arrow-right"></i></div>
+        <div class="plan-badge purple-badge">Premium</div>
+        <div class="plan-price">
+          <span class="currency">₹</span>28,999
+        </div>
+        <ul class="plan-features">
+          <li><i class="fa fa-check"></i> Shopify Store Setup</li>
+          <li><i class="fa fa-check"></i> Premium Theme Setup*</li>
+          <li><i class="fa fa-check"></i> Payment Gateway & Shipping Integration</li>
+          <li><i class="fa fa-check"></i> Mobile Responsive Design</li>
+          <li><i class="fa fa-check"></i> WhatsApp Chat Integration</li>
+          <li><i class="fa fa-check"></i> Google Analytics & Search Console</li>
+          <li><i class="fa fa-check"></i> Facebook Pixel / Meta Integration</li>
+          <li><i class="fa fa-check"></i> Unlimited Custom Shopify Sections</li>
+          <li><i class="fa fa-check"></i> Advanced Speed Optimization</li>
+          <li><i class="fa fa-check"></i> Advanced Mega Menu</li>
+        </ul>
+        <a href="#" class="btn-outline plan-btn wa-plan-btn" data-plan="Premium Website Plan ₹28,999">Get Started</a>
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+<section class="reels-section section-pad" id="reels">
+  <div class="container">
+    <div class="section-eyebrow center"><i class="fa fa-circle-dot"></i> Our Work</div>
+    <h2 class="section-title center">Reels That <span class="grad-text">Stop the Scroll</span></h2>
+    <p class="section-sub center">Swipe through our latest high-performing reels — tap any to watch</p>
+
+    <div class="reels-carousel-wrap">
+      <button class="reels-nav-btn reels-prev" id="reelsPrev" aria-label="Previous">
+        <i class="fa fa-chevron-left"></i>
+      </button>
+
+      <div class="reels-viewport" id="reelsViewport">
+        <div class="reels-track" id="reelsTrack">
+
+          <div class="reel-card" data-reel="1">
+            <div class="reel-thumb">
+              <div class="reel-bg reel-bg-1"></div>
+              <div class="reel-card-overlay">
+                <div class="reel-play-btn"><i class="fa fa-play"></i></div>
+                <div class="reel-card-meta">
+                  <span class="reel-tag"><i class="fab fa-instagram"></i> Reel</span>
+                  <div class="reel-card-stats">
+                    <span><i class="fa fa-eye"></i> 2.4M</span>
+                    <span><i class="fa fa-heart"></i> 48K</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="reel-card-info">
+              <h4>Brand Launch Campaign</h4>
+              <p>Lifestyle & Fashion</p>
+            </div>
+          </div>
+
+          <div class="reel-card" data-reel="2">
+            <div class="reel-thumb">
+              <div class="reel-bg reel-bg-2"></div>
+              <div class="reel-card-overlay">
+                <div class="reel-play-btn"><i class="fa fa-play"></i></div>
+                <div class="reel-card-meta">
+                  <span class="reel-tag"><i class="fab fa-youtube"></i> Short</span>
+                  <div class="reel-card-stats">
+                    <span><i class="fa fa-eye"></i> 1.8M</span>
+                    <span><i class="fa fa-heart"></i> 32K</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="reel-card-info">
+              <h4>Product Reveal Video</h4>
+              <p>Tech & Gadgets</p>
+            </div>
+          </div>
+
+          <div class="reel-card" data-reel="3">
+            <div class="reel-thumb">
+              <div class="reel-bg reel-bg-3"></div>
+              <div class="reel-card-overlay">
+                <div class="reel-play-btn"><i class="fa fa-play"></i></div>
+                <div class="reel-card-meta">
+                  <span class="reel-tag"><i class="fab fa-tiktok"></i> TikTok</span>
+                  <div class="reel-card-stats">
+                    <span><i class="fa fa-eye"></i> 3.1M</span>
+                    <span><i class="fa fa-heart"></i> 71K</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="reel-card-info">
+              <h4>Restaurant Promo Reel</h4>
+              <p>Food & Beverage</p>
+            </div>
+          </div>
+
+          <div class="reel-card" data-reel="4">
+            <div class="reel-thumb">
+              <div class="reel-bg reel-bg-4"></div>
+              <div class="reel-card-overlay">
+                <div class="reel-play-btn"><i class="fa fa-play"></i></div>
+                <div class="reel-card-meta">
+                  <span class="reel-tag"><i class="fab fa-instagram"></i> Reel</span>
+                  <div class="reel-card-stats">
+                    <span><i class="fa fa-eye"></i> 980K</span>
+                    <span><i class="fa fa-heart"></i> 19K</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="reel-card-info">
+              <h4>Real Estate Showcase</h4>
+              <p>Property & Interiors</p>
+            </div>
+          </div>
+
+          <div class="reel-card" data-reel="5">
+            <div class="reel-thumb">
+              <div class="reel-bg reel-bg-5"></div>
+              <div class="reel-card-overlay">
+                <div class="reel-play-btn"><i class="fa fa-play"></i></div>
+                <div class="reel-card-meta">
+                  <span class="reel-tag"><i class="fab fa-youtube"></i> Short</span>
+                  <div class="reel-card-stats">
+                    <span><i class="fa fa-eye"></i> 1.2M</span>
+                    <span><i class="fa fa-heart"></i> 27K</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="reel-card-info">
+              <h4>Fitness Brand Story</h4>
+              <p>Health & Wellness</p>
+            </div>
+          </div>
+
+          <div class="reel-card" data-reel="6">
+            <div class="reel-thumb">
+              <div class="reel-bg reel-bg-6"></div>
+              <div class="reel-card-overlay">
+                <div class="reel-play-btn"><i class="fa fa-play"></i></div>
+                <div class="reel-card-meta">
+                  <span class="reel-tag"><i class="fab fa-instagram"></i> Reel</span>
+                  <div class="reel-card-stats">
+                    <span><i class="fa fa-eye"></i> 4.5M</span>
+                    <span><i class="fa fa-heart"></i> 94K</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="reel-card-info">
+              <h4>Jewellery Campaign</h4>
+              <p>Luxury & Lifestyle</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <button class="reels-nav-btn reels-next" id="reelsNext" aria-label="Next">
+        <i class="fa fa-chevron-right"></i>
+      </button>
+    </div>
+
+    <div class="reels-dots" id="reelsDots">
+      <span class="reels-dot active"></span>
+      <span class="reels-dot"></span>
+      <span class="reels-dot"></span>
+      <span class="reels-dot"></span>
+      <span class="reels-dot"></span>
+      <span class="reels-dot"></span>
+    </div>
+  </div>
+</section>
+
+<div class="reel-popup-overlay" id="reelPopupOverlay">
+  <div class="reel-popup" id="reelPopup">
+    <button class="reel-popup-close" id="reelPopupClose" aria-label="Close">
+      <i class="fa fa-xmark"></i>
+    </button>
+
+    <div class="reel-popup-phone">
+      <div class="reel-popup-screen" id="reelPopupScreen">
+
+        <div class="reel-popup-top" style="z-index: 10;">
+          <span class="reel-popup-platform" id="popupPlatform"><i class="fab fa-instagram"></i> Reels</span>
+          <span class="reel-popup-live">● LIVE</span>
+        </div>
+
+        <div class="reel-popup-bg" id="popupBg"></div>
+        
+        <video id="popupVideo" autoplay loop playsinline style="width: 100%; height: 100%; object-fit: cover; position: absolute; top: 0; left: 0; z-index: 1; display: none;"></video>
+
+        <div class="reel-popup-play-center" style="z-index: 10;">
+          <div class="reel-popup-play-ring">
+            <i class="fa fa-pause" id="reelPlayPauseIcon"></i>
+          </div>
+        </div>
+
+        <div class="reel-popup-sidebar" style="z-index: 10;">
+          <div class="reel-sidebar-btn">
+            <i class="fa fa-heart"></i>
+            <span id="popupLikes">48K</span>
+          </div>
+          <div class="reel-sidebar-btn">
+            <i class="fa fa-comment"></i>
+            <span>1.2K</span>
+          </div>
+          <div class="reel-sidebar-btn">
+            <i class="fa fa-share"></i>
+            <span>892</span>
+          </div>
+          <div class="reel-sidebar-btn">
+            <i class="fa fa-ellipsis-vertical"></i>
+          </div>
+        </div>
+
+        <div class="reel-popup-bottom" style="z-index: 10;">
+          <div class="reel-popup-title-row">
+            <div class="reel-popup-avatar">B</div>
+            <div class="reel-popup-title-text">
+              <strong id="popupTitle">Brand Launch Campaign</strong>
+              <span id="popupCategory">Lifestyle & Fashion</span>
+            </div>
+            <button class="reel-popup-follow">Follow</button>
+          </div>
+          <div class="reel-popup-progress-bar">
+            <div class="reel-popup-progress-fill" id="popupProgressFill"></div>
+          </div>
+          <div class="reel-popup-stats-row">
+            <span><i class="fa fa-eye"></i> <strong id="popupViews">2.4M Views</strong></span>
+            <span><i class="fa fa-bolt"></i> 98% Retention</span>
+            <span id="popupViralScore">⚡ Viral</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="reel-popup-info-panel">
+      <h3 id="popupInfoTitle">Brand Launch Campaign</h3>
+      <p id="popupInfoDesc">A high-energy brand launch reel crafted for maximum impact. Combines cinematic transitions with trend-forward audio to drive massive engagement.</p>
+      <div class="reel-popup-tags" id="popupTags">
+        <span>#BrandLaunch</span>
+        <span>#Viral</span>
+        <span>#Fashion</span>
+      </div>
+      <a href="#contact" class="btn-primary reel-popup-cta" id="reelPopupCta">
+        Get a Reel Like This <i class="fa fa-arrow-right"></i>
+      </a>
+    </div>
+
+  </div>
+</div>
+
+<section class="testimonials section-pad">
+  <div class="container">
+    <div class="testi-header">
+      <div class="section-eyebrow"><i class="fa fa-circle-dot"></i> Reviews</div>
+      <h2 class="section-title">Clients love a <span class="italic-accent">lighter day</span>.</h2>
+      <div class="testi-rating">
+        <span class="testi-stars-row">★★★★★</span>
+        <span class="testi-rating-num">4.9</span>
+        <span class="testi-rating-text">from 500+ happy brands</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="marquee-wrap">
+    <div class="marquee-fade marquee-fade-left"></div>
+    <div class="marquee-fade marquee-fade-right"></div>
+
+    <div class="marquee-row marquee-rtl">
+      <div class="marquee-track" id="marqueeTrack1">
+        <div class="testi-card">
+          <div class="stars">★★★★★</div>
+          <p>"Brandify Socialmedia transformed our social media presence completely. Their strategies helped us gain 10k followers in just 3 months!"</p>
+          <div class="testi-author">
+            <span class="av av1">P</span>
+            <div><strong>Priya Kapoor</strong><small>Founder, TrendCo</small></div>
+          </div>
+        </div>
+        <div class="testi-card">
+          <div class="stars">★★★★★</div>
+          <p>"Working with Brandify Socialmedia has been a game-changer for our business. Their data-driven approach consistently helps us achieve targets."</p>
+          <div class="testi-author">
+            <span class="av av2">R</span>
+            <div><strong>Rahul Sharma</strong><small>CEO, StartupX</small></div>
+          </div>
+        </div>
+        <div class="testi-card">
+          <div class="stars">★★★★★</div>
+          <p>"Incredible ROI on our ad campaigns! Brandify Socialmedia's team knows exactly how to reach our target audience with confidence."</p>
+          <div class="testi-author">
+            <span class="av av3">N</span>
+            <div><strong>Neha Patel</strong><small>Director, GrowBrand</small></div>
+          </div>
+        </div>
+        <div class="testi-card">
+          <div class="stars">★★★★★</div>
+          <p>"The team at Brandify Socialmedia is incredibly professional and creative. Our online sales tripled after partnering with them!"</p>
+          <div class="testi-author">
+            <span class="av av4 sm-av">A</span>
+            <div><strong>Aayush Mehta</strong><small>Owner, ShopEase</small></div>
+          </div>
+        </div>
+        <div class="testi-card" aria-hidden="true">
+          <div class="stars">★★★★★</div>
+          <p>"Brandify Socialmedia transformed our social media presence completely. Their strategies helped us gain 10k followers in just 3 months!"</p>
+          <div class="testi-author">
+            <span class="av av1">P</span>
+            <div><strong>Priya Kapoor</strong><small>Founder, TrendCo</small></div>
+          </div>
+        </div>
+        <div class="testi-card" aria-hidden="true">
+          <div class="stars">★★★★★</div>
+          <p>"Working with Brandify Socialmedia has been a game-changer for our business. Their data-driven approach consistently helps us achieve targets."</p>
+          <div class="testi-author">
+            <span class="av av2">R</span>
+            <div><strong>Rahul Sharma</strong><small>CEO, StartupX</small></div>
+          </div>
+        </div>
+        <div class="testi-card" aria-hidden="true">
+          <div class="stars">★★★★★</div>
+          <p>"Incredible ROI on our ad campaigns! Brandify Socialmedia's team knows exactly how to reach our target audience with confidence."</p>
+          <div class="testi-author">
+            <span class="av av3">N</span>
+            <div><strong>Neha Patel</strong><small>Director, GrowBrand</small></div>
+          </div>
+        </div>
+        <div class="testi-card" aria-hidden="true">
+          <div class="stars">★★★★★</div>
+          <p>"The team at Brandify Socialmedia is incredibly professional and creative. Our online sales tripled after partnering with them!"</p>
+          <div class="testi-author">
+            <span class="av av4 sm-av">A</span>
+            <div><strong>Aayush Mehta</strong><small>Owner, ShopEase</small></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="marquee-row marquee-ltr">
+      <div class="marquee-track" id="marqueeTrack2">
+        <div class="testi-card">
+          <div class="stars">★★★★★</div>
+          <p>"Brandify handled our entire rebranding campaign seamlessly. Within 6 weeks, our engagement rate doubled and inquiries went through the roof!"</p>
+          <div class="testi-author">
+            <span class="av av1">S</span>
+            <div><strong>Sneha Joshi</strong><small>Co-Founder, UrbanNest</small></div>
+          </div>
+        </div>
+        <div class="testi-card">
+          <div class="stars">★★★★★</div>
+          <p>"The Meta ads run by Brandify brought in quality leads at half the cost we used to spend. Real results, zero fluff — highly recommend!"</p>
+          <div class="testi-author">
+            <span class="av av2">K</span>
+            <div><strong>Karan Mehta</strong><small>Director, FitLife India</small></div>
+          </div>
+        </div>
+        <div class="testi-card">
+          <div class="stars">★★★★★</div>
+          <p>"From content strategy to reels, the Brandify team delivered everything on time with top-notch quality. Our brand finally has a strong voice online."</p>
+          <div class="testi-author">
+            <span class="av av3">D</span>
+            <div><strong>Divya Rao</strong><small>Owner, Diva Boutique</small></div>
+          </div>
+        </div>
+        <div class="testi-card">
+          <div class="stars">★★★★★</div>
+          <p>"Partnering with Brandify Socialmedia was the best business decision we made this year. Our Instagram now drives 40% of our total monthly revenue!"</p>
+          <div class="testi-author">
+            <span class="av av4 sm-av">V</span>
+            <div><strong>Vikram Shah</strong><small>CEO, ShopLocal</small></div>
+          </div>
+        </div>
+        <div class="testi-card" aria-hidden="true">
+          <div class="stars">★★★★★</div>
+          <p>"Brandify handled our entire rebranding campaign seamlessly. Within 6 weeks, our engagement rate doubled and inquiries went through the roof!"</p>
+          <div class="testi-author">
+            <span class="av av1">S</span>
+            <div><strong>Sneha Joshi</strong><small>Co-Founder, UrbanNest</small></div>
+          </div>
+        </div>
+        <div class="testi-card" aria-hidden="true">
+          <div class="stars">★★★★★</div>
+          <p>"The Meta ads run by Brandify brought in quality leads at half the cost we used to spend. Real results, zero fluff — highly recommend!"</p>
+          <div class="testi-author">
+            <span class="av av2">K</span>
+            <div><strong>Karan Mehta</strong><small>Director, FitLife India</small></div>
+          </div>
+        </div>
+        <div class="testi-card" aria-hidden="true">
+          <div class="stars">★★★★★</div>
+          <p>"From content strategy to reels, the Brandify team delivered everything on time with top-notch quality. Our brand finally has a strong voice online."</p>
+          <div class="testi-author">
+            <span class="av av3">D</span>
+            <div><strong>Divya Rao</strong><small>Owner, Diva Boutique</small></div>
+          </div>
+        </div>
+        <div class="testi-card" aria-hidden="true">
+          <div class="stars">★★★★★</div>
+          <p>"Partnering with Brandify Socialmedia was the best business decision we made this year. Our Instagram now drives 40% of our total monthly revenue!"</p>
+          <div class="testi-author">
+            <span class="av av4 sm-av">V</span>
+            <div><strong>Vikram Shah</strong><small>CEO, ShopLocal</small></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="solutions section-pad">
+  <div class="container">
+    <div class="section-eyebrow center"><i class="fa fa-circle-dot"></i> Our Premium Services</div>
+    <h2 class="section-title center">Comprehensive Digital Solutions</h2>
+    <p class="section-sub center">Explore our full range of services designed to elevate your brand</p>
+    <div class="slider-wrap">
+      <button class="slider-btn prev" id="prevBtn"><i class="fa fa-chevron-left"></i></button>
+      <div class="slider-track" id="sliderTrack">
+
+        <div class="slide active">
+          <div class="slide-card">
+            <div class="slide-img">
+              <div class="mock-chart">
+                <div class="chart-bar" style="height:60%"></div>
+                <div class="chart-bar" style="height:85%"></div>
+                <div class="chart-bar" style="height:45%"></div>
+                <div class="chart-bar" style="height:95%"></div>
+                <div class="chart-bar" style="height:70%"></div>
+                <div class="chart-bar" style="height:55%"></div>
+              </div>
+            </div>
+            <div class="slide-content">
+              <h3>Data Tracking & Reporting</h3>
+              <p>Make informed decisions with comprehensive analytics and transparent reporting.</p>
+              <ul class="slide-list">
+                <li><i class="fa fa-check-circle"></i> Smart dashboards are configurable</li>
+                <li><i class="fa fa-check-circle"></i> Custom automated reports</li>
+                <li><i class="fa fa-check-circle"></i> Monthly performance reports and replay</li>
+              </ul>
+              <a href="#" class="btn-outline sm">Learn More</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="slide-card">
+            <div class="slide-img">
+              <div class="mock-chart">
+                <div class="chart-line"></div>
+              </div>
+            </div>
+            <div class="slide-content">
+              <h3>Social Media Management</h3>
+              <p>Consistent brand presence across all major social media platforms.</p>
+              <ul class="slide-list">
+                <li><i class="fa fa-check-circle"></i> Content calendar planning</li>
+                <li><i class="fa fa-check-circle"></i> Community engagement</li>
+                <li><i class="fa fa-check-circle"></i> Influencer partnerships</li>
+              </ul>
+              <a href="#" class="btn-outline sm">Learn More</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="slide-card">
+            <div class="slide-img">
+              <div class="mock-chart">
+                <div class="chart-bar" style="height:75%"></div>
+                <div class="chart-bar" style="height:90%"></div>
+                <div class="chart-bar" style="height:55%"></div>
+                <div class="chart-bar" style="height:80%"></div>
+              </div>
+            </div>
+            <div class="slide-content">
+              <h3>SEO & Content Marketing</h3>
+              <p>Rank higher and attract organic traffic with proven strategies.</p>
+              <ul class="slide-list">
+                <li><i class="fa fa-check-circle"></i> Keyword research & optimization</li>
+                <li><i class="fa fa-check-circle"></i> Technical SEO audit</li>
+                <li><i class="fa fa-check-circle"></i> High-quality content creation</li>
+              </ul>
+              <a href="#" class="btn-outline sm">Learn More</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <button class="slider-btn next" id="nextBtn"><i class="fa fa-chevron-right"></i></button>
+    </div>
+    <div class="slider-dots" id="sliderDots">
+      <span class="dot-item active"></span>
+      <span class="dot-item"></span>
+      <span class="dot-item"></span>
+    </div>
+  </div>
+</section>
+
+<section class="why section-pad">
+  <div class="container">
+    <div class="section-eyebrow center"><i class="fa fa-circle-dot"></i> Our Competitive Edge</div>
+    <h2 class="section-title center">Why Choose Brandify Socialmedia?</h2>
+    <p class="section-sub center">We combine cutting-edge technology, creative excellence, and data-driven insights</p>
+    <div class="why-grid">
+      <div class="why-card">
+        <div class="why-icon purple"><i class="fa fa-bolt"></i></div>
+        <h3>Lightning Fast Results</h3>
+        <p>See measurable improvements in your digital presence within weeks.</p>
+      </div>
+      <div class="why-card">
+        <div class="why-icon pink"><i class="fa fa-trophy"></i></div>
+        <h3>Award-Winning Team</h3>
+        <p>Our team consists of industry experts with proven track records of success.</p>
+      </div>
+      <div class="why-card">
+        <div class="why-icon cyan"><i class="fa fa-headset"></i></div>
+        <h3>Dedicated Support</h3>
+        <p>24/7 support from our team who are always ready to assist with your services.</p>
+      </div>
+      <div class="why-card">
+        <div class="why-icon orange"><i class="fa fa-globe"></i></div>
+        <h3>Global Reach</h3>
+        <p>Expand your brand across international markets and channels.</p>
+      </div>
+    </div>
+    <div class="why-cta">
+      <a href="about.html" class="btn-primary">Discover Our Solutions <i class="fa fa-arrow-right"></i></a>
+    </div>
+  </div>
+</section>
+
+<section class="cta-banner">
+  <div class="hero-glow hero-glow-1"></div>
+  <div class="container cta-inner">
+    <h2>Let's Vibe With Your Brand Today!</h2>
+    <p>Join hundreds of successful brands who trust Brandify Socialmedia to drive their digital growth. Let's create something amazing together.</p>
+    <div class="cta-btns">
+      <a href="#contact" class="btn-primary lg">Start Your Journey <i class="fa fa-arrow-right"></i></a>
+      <a href="tel:+919876543210" class="btn-outline lg">Schedule a Call</a>
+    </div>
+  </div>
+</section>
+
+<footer class="footer" id="contact">
+  <div class="container footer-inner">
+    <div class="footer-col">
+      <a href="#" class="logo footer-logo"><span>Brandify</span></a>
+      <p class="footer-desc">Transform your brand with innovative digital marketing strategies and data-driven campaigns.</p>
+      <div class="social-links">
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="#plans">Plans</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Our Services</h4>
+      <ul>
+        <li><a href="services.html#social-media-growth">Social Media Management</a></li>
+        <li><a href="services.html#google-ads-seo">SEO Optimization</a></li>
+        <li><a href="services.html#graphic-design">Branding &amp; Content Creation</a></li>
+        <li><a href="services.html#website-development">Website Development</a></li>
+        <li><a href="services.html#social-media-marketing">Paid Advertising</a></li>
+        <li><a href="services.html#google-ads-seo">Data Tracking &amp; Reporting</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Contact Info</h4>
+      <ul class="contact-list">
+        <li><i class="fa fa-phone"></i> +91 81409 24369</li>
+        <li><i class="fa fa-envelope"></i> hello@brandifysocialmedia.in</li>
+        <li><i class="fa fa-location-dot"></i> Surat, Gujarat, India</li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2025 Brandify Socialmedia. All rights reserved.</p>
+    <div class="footer-links">
+      <a href="#">Privacy Policy</a>
+      <a href="#">Terms of Service</a>
+      <a href="#">Cookie Policy</a>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js?v=4" defer></script>
+</body>
+</html>
